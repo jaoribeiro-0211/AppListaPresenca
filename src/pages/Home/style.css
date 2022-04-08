@@ -4,8 +4,23 @@
   align-items: center;
 }
 
-.container h1 {
+.container header {
+  width: 50%;
   margin: 84px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-left: 7px;
+}
+.container header div {
+  display: flex;
+  align-items: center;
 }
 
 .container input {
@@ -17,6 +32,9 @@
   border:none;
 
   font-size: 16px;
+}
+.container input:focus {
+ border-color:#b9b9b9 ;
 }
 
 .container button {
